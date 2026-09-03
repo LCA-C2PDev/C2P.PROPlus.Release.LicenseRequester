@@ -1,3 +1,19 @@
+# C2P LicenseRequester portable download
+
+## Download and run
+
+Download [C2P.LicenseRequester-v1.3.0-win-x64-portable.zip](C2P.LicenseRequester-v1.3.0-win-x64-portable.zip), extract it to a writable folder, and run `C2P.LicenseRequester.exe` on the PC that will run Call2Prayer PROPlus.
+
+The ZIP is self-contained for Windows x64; no separate .NET Desktop Runtime or installer is required. Keep `yapi.dll` in the extracted folder beside the executable. It enables optional YOCTO USB relay capture and diagnostics.
+
+Verify the ZIP before use:
+
+```text
+SHA-256: 0B99B53ED4767A234D83E4D1755335E5CD7B79CF9F6161844123A211BE13CA6A
+```
+
+Release notes are available in [RELEASE-NOTES.md](RELEASE-NOTES.md).
+
 # Purpose, privacy, and consent
 
 Thank you for your interest in Call2Prayer Advance Automation Solution. This portable utility will help you send requried information to help us generate your Call2Prayer license and subascription.
