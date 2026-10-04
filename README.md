@@ -1,54 +1,27 @@
-# C2P LicenseRequester 1.4.0
+# Call2Prayer PROPlus License Requester
 
-## Download the latest release
+The License Requester helps you prepare a request for a **Demo license** or **purchase registration** for Call2Prayer PROPlus. Run it on the Windows PC where you plan to use PROPlus. It gathers the details needed to review your request and saves a package for you to send to our team. The requester does not issue or activate a license.
 
-**Current version: 1.4.0.** Download [C2P.LicenseRequester-v1.4.0-win-x64-OneClick.exe](https://github.com/LCA-C2PDev/C2P.PROPlus.Release.LicenseRequester/releases/download/v1.4.0/C2P.LicenseRequester-v1.4.0-win-x64-OneClick.exe) or open the [latest GitHub release](https://github.com/LCA-C2PDev/C2P.PROPlus.Release.LicenseRequester/releases/latest). Run the setup on the Windows x64 PC that will run Call2Prayer PROPlus. The per-user setup installs the self-contained requester and its required `yapi.dll`, then opens the app. No separate .NET Desktop Runtime or administrator elevation is required.
+## Download and install
 
-Fingerprint V2 requests from 1.4.0 require the matching SAK Fingerprint V2 branch and PROPlus 2026.10.4.1 preview licensing workflow. Target-PC interoperability and physical C2P-ACT1 USB Actuator Module checks continue.
+[**Download the latest License Requester (1.4.0) for Windows x64**](https://github.com/LCA-C2PDev/C2P.PROPlus.Release.LicenseRequester/releases/download/v1.4.0/C2P.LicenseRequester-v1.4.0-win-x64-OneClick.exe)
 
-Verify the one-click EXE before use:
+Open the downloaded setup and follow the on-screen instructions. You can also visit the [latest release page](https://github.com/LCA-C2PDev/C2P.PROPlus.Release.LicenseRequester/releases/latest).
 
-```text
-SHA-256: 8ED02A9D211F00CF9C7FEEBC58511C2FCEE7EBC320D69F3B3858E515D26A6503
-```
+## Prepare your request
 
-The [checksum file](C2P.LicenseRequester-v1.4.0-win-x64-OneClick.sha256.txt) and [release notes](RELEASE-NOTES.md) are also available here.
+1. Open License Requester on the PC where Call2Prayer PROPlus will be used.
+2. Choose **Request Demo** or **Register Purchase**.
+3. Enter your contact and site details. If you use a **C2P-ACT1 USB Actuator Module**, provide its details when prompted.
+4. Review the request, then save the exported request package.
+5. Send the ZIP package to [info@lcacoustics.com](mailto:info@lcacoustics.com). You can use **Share by Email** or **Share by WhatsApp** in the app to open a message; **attach the ZIP file yourself before sending**.
 
-# Purpose, privacy, and consent
+Our team will review your request and contact you about the next steps. Keep a copy of the exported package for your records.
 
-Thank you for your interest in the Call2Prayer Advance Automation Solution. This utility helps you prepare the information needed to request your Call2Prayer license and subscription.
+## Privacy and support
 
-## What this app collects
+The request package may include your contact and site details, along with information about the PC and optional actuator module. Review it before sending, and share it only with LC Acoustics through a support channel. Read our [privacy policy](https://www.call-2prayer.com/privacy-policy).
 
-- customer details entered by **you**
-- site details entered by **you**
-- PC digital fingerprint captured automatically. Run this app on the PC where you intend to install Call2Prayer.
+For help with a Demo or purchase request, contact [info@lcacoustics.com](mailto:info@lcacoustics.com) or [WhatsApp +971 50 320 0717](https://wa.me/971503200717). Learn more about the [Call2Prayer Advance Automation solution](https://www.call-2prayer.com/).
 
-## What this app does not do
-
-- it does not install services
-- it does not run in the background
-- it does not activate the product
-- it does not issue a license
-- it does not contact a licensing server by itself
-
-## Privacy note
-
-The generated request is intended for the Call2Prayer PROPlus licensing administrator so a license with the appropriate features and subscription period can be prepared for this machine.
-
-The exported files may contain:
-
-- personal contact details
-- organization and site information
-- hardware-derived machine identity values
-
-Only share the generated files with the intended licensing contact or approved support channel.
-
-## Consent
-
-By continuing, you confirm that:
-
-- you are authorized to prepare the request for this customer or site
-- you understand that machine identity data will be exported into the request artifact
-- you understand that the request artifact should be reviewed before sharing
-- you give consent to Call2Prayer PROPlus licensing administrator to use the prepared request for further processing.
+Version 1.4.0 offers a simpler installation and improves how the requester identifies the intended PC. See the [release notes](RELEASE-NOTES.md) for a short summary.

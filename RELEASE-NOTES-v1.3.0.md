@@ -1,21 +1,7 @@
-# C2P LicenseRequester v1.3.0
+# License Requester 1.3.0 (previous version)
 
-## Portable Windows x64 package
+This older [portable package for Windows x64](C2P.LicenseRequester-v1.3.0-win-x64-portable.zip) can be used to prepare a Call2Prayer PROPlus license request. Extract the ZIP file, keep its contents together, and run `C2P.LicenseRequester.exe` on the PC where PROPlus will be used.
 
-- File: `C2P.LicenseRequester-v1.3.0-win-x64-portable.zip`
-- Contents: `C2P.LicenseRequester.exe` and required `yapi.dll`
-- Package SHA-256: `0B99B53ED4767A234D83E4D1755335E5CD7B79CF9F6161844123A211BE13CA6A`
-- Deployment: extract both files into the same writable folder and run the executable; no installer or separate .NET Desktop Runtime is required.
+Version 1.3.0 added an optional step for users with a C2P-ACT1 USB Actuator Module. The module is not required to request a license.
 
-## What's new
-
-- Optional YOCTO USB relay step with relay identity capture in the machine request.
-- Editable logical name, including confirmed write and persistent save to the connected YOCTO module.
-- Supervised relay diagnostics: live output/beacon state, confirmed two-second pulse test, beacon toggle, and Force OFF.
-- Safe relay/beacon reset when leaving the relay step or closing the requester.
-
-## Notes for prospects
-
-Run the requester on the PC where Call2Prayer PROPlus will be used. The generated request includes machine-binding data and may include customer, site, and optional relay identity data. Review the exported JSON/TXT/ZIP request package before sharing it with approved Call2Prayer support or licensing staff.
-
-The YOCTO relay is optional. If used, keep external loads safe before running relay diagnostics. `yapi.dll` must remain beside `C2P.LicenseRequester.exe` after extraction.
+For a simpler installation, use the [latest License Requester](https://github.com/LCA-C2PDev/C2P.PROPlus.Release.LicenseRequester/releases/latest). For help, contact [info@lcacoustics.com](mailto:info@lcacoustics.com) or [WhatsApp +971 50 320 0717](https://wa.me/971503200717).

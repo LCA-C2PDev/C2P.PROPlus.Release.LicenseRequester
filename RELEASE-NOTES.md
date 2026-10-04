@@ -1,23 +1,13 @@
-# C2P LicenseRequester v1.4.0 one-click release
+# License Requester 1.4.0
 
-## Package
+[**Download the one-click installer for Windows x64**](https://github.com/LCA-C2PDev/C2P.PROPlus.Release.LicenseRequester/releases/download/v1.4.0/C2P.LicenseRequester-v1.4.0-win-x64-OneClick.exe)
 
-- File: `C2P.LicenseRequester-v1.4.0-win-x64-OneClick.exe`
-- Size: 74,077,308 bytes
-- SHA-256: `8ED02A9D211F00CF9C7FEEBC58511C2FCEE7EBC320D69F3B3858E515D26A6503`
-- Source: `LCA-C2PDev/C2P.LicenseRequester` tag `v1.4.0`, commit `4c6e3f2`
-- Platform: Windows x64; self-contained .NET 8 WPF application
+Use License Requester on the PC where you plan to use Call2Prayer PROPlus. Choose **Request Demo** or **Register Purchase**, follow the steps in the app, and save the request package. Send the ZIP file to [info@lcacoustics.com](mailto:info@lcacoustics.com), or use the app's sharing options and attach the ZIP file before sending.
 
-Download the setup EXE and open it on the intended Call2Prayer PROPlus PC. It installs for the current user, includes the required `yapi.dll` for optional C2P-ACT1 USB Actuator Module features, creates a Start menu entry, and opens License Requester. It does not issue or activate a license.
+## What's new
 
-## Fingerprint V2
+- One download to install and open License Requester.
+- Improved identification of the PC for your license request.
+- Optional C2P-ACT1 USB Actuator Module details can be included when applicable.
 
-The requester derives a stable machine identity from MachineGuid and strong hardware anchors. Network adapter MAC addresses remain request metadata and do not affect the V2 fingerprint. The exported `C2P.MachineRequest/v2` is intended for the matching SAK Fingerprint V2 branch and PROPlus 2026.10.4.1 preview. Legacy v1 request import remains supported.
-
-## Verification
-
-All 14 License Requester automated tests passed. The self-contained publish produced the application EXE and `yapi.dll`. A sandbox install placed both files with hashes matching the publish output; the sandbox uninstall completed and removed the app. The SHA-256 above identifies the release asset.
-
-Target-PC request-to-license interoperability, network adapter change behavior, and physical C2P-ACT1 USB Actuator Module operation remain operator checks. The setup EXE is unsigned, so Windows SmartScreen may ask for confirmation. Do not include customer request files or raw hardware evidence in public reports.
-
-The prior 1.3.0 portable package and [release notes](RELEASE-NOTES-v1.3.0.md) remain available.
+The requester prepares a license request; it does not issue or activate a license. For instructions, see the [README](README.md). For help, email [info@lcacoustics.com](mailto:info@lcacoustics.com) or message [WhatsApp +971 50 320 0717](https://wa.me/971503200717).
