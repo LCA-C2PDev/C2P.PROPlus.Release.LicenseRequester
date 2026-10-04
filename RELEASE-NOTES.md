@@ -10,4 +10,4 @@ Use License Requester on the PC where you plan to use Call2Prayer PROPlus. Choos
 - Improved identification of the PC for your license request.
 - Optional C2P-ACT1 USB Actuator Module details can be included when applicable.
 
-The requester prepares a license request; it does not issue or activate a license. For instructions, see the [README](README.md). For help, email [info@lcacoustics.com](mailto:info@lcacoustics.com) or message [WhatsApp +971 50 320 0717](https://wa.me/971503200717).
+The requester prepares a license request; it does not issue or activate a license. For instructions, see the [user guide](https://github.com/LCA-C2PDev/C2P.PROPlus.Release.LicenseRequester#readme). For help, email [info@lcacoustics.com](mailto:info@lcacoustics.com) or message [WhatsApp +971 50 320 0717](https://wa.me/971503200717).
