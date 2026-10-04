@@ -1,29 +1,28 @@
-# C2P LicenseRequester portable download
+# C2P LicenseRequester downloads
 
 ## Download and run
 
-Download [C2P.LicenseRequester-v1.3.0-win-x64-portable.zip](C2P.LicenseRequester-v1.3.0-win-x64-portable.zip), extract it to a writable folder, and run `C2P.LicenseRequester.exe` on the PC that will run Call2Prayer PROPlus.
+**Latest one-click preview (1.4.0):** Download [C2P.LicenseRequester-v1.4.0-win-x64-OneClick.exe](https://github.com/LCA-C2PDev/C2P.PROPlus.Release.LicenseRequester/releases/download/v1.4.0/C2P.LicenseRequester-v1.4.0-win-x64-OneClick.exe) and open it on the Windows x64 PC that will run Call2Prayer PROPlus. The per-user setup installs the self-contained requester and its required `yapi.dll`, then opens the app. No separate .NET Desktop Runtime or administrator elevation is required.
 
-The ZIP is self-contained for Windows x64; no separate .NET Desktop Runtime or installer is required. Keep `yapi.dll` in the extracted folder beside the executable. It enables optional YOCTO USB relay capture and diagnostics.
+Fingerprint V2 requests from 1.4.0 require the matching SAK Fingerprint V2 branch and PROPlus 2026.10.4.1 preview licensing workflow. This release is a preview while target-PC interoperability and physical YOCTO checks continue.
 
-Verify the ZIP before use:
+Verify the one-click EXE before use:
 
 ```text
-SHA-256: 0B99B53ED4767A234D83E4D1755335E5CD7B79CF9F6161844123A211BE13CA6A
+SHA-256: 8ED02A9D211F00CF9C7FEEBC58511C2FCEE7EBC320D69F3B3858E515D26A6503
 ```
 
-Release notes are available in [RELEASE-NOTES.md](RELEASE-NOTES.md).
+The [checksum file](C2P.LicenseRequester-v1.4.0-win-x64-OneClick.sha256.txt) and [release notes](RELEASE-NOTES.md) are also available here. The previous [1.3.0 portable ZIP](C2P.LicenseRequester-v1.3.0-win-x64-portable.zip) remains available for manual extraction; keep its `yapi.dll` beside its executable.
 
 # Purpose, privacy, and consent
 
-Thank you for your interest in Call2Prayer Advance Automation Solution. This portable utility will help you send requried information to help us generate your Call2Prayer license and subascription.
+Thank you for your interest in the Call2Prayer Advance Automation Solution. This utility helps you prepare the information needed to request your Call2Prayer license and subscription.
 
 ## What this app collects
 
 - customer details entered by **you**
 - site details entered by **you**
-- pc digital fingerprint automatically captured. 
- ** *Run this appp on the PC wher you intend to install Call2Prayer*
+- PC digital fingerprint captured automatically. Run this app on the PC where you intend to install Call2Prayer.
 
 ## What this app does not do
 
@@ -35,7 +34,7 @@ Thank you for your interest in Call2Prayer Advance Automation Solution. This por
 
 ## Privacy note
 
-The generated request is intended to be sent to the Call2Prayer PROPlus licensing administrator so that a valid license with related features and subsscription span can be prepared for this machine.
+The generated request is intended for the Call2Prayer PROPlus licensing administrator so a license with the appropriate features and subscription period can be prepared for this machine.
 
 The exported files may contain:
 

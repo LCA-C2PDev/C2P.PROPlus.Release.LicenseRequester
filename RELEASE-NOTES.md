@@ -1,21 +1,23 @@
-# C2P LicenseRequester v1.3.0
+# C2P LicenseRequester v1.4.0 one-click preview
 
-## Portable Windows x64 package
+## Package
 
-- File: `C2P.LicenseRequester-v1.3.0-win-x64-portable.zip`
-- Contents: `C2P.LicenseRequester.exe` and required `yapi.dll`
-- Package SHA-256: `0B99B53ED4767A234D83E4D1755335E5CD7B79CF9F6161844123A211BE13CA6A`
-- Deployment: extract both files into the same writable folder and run the executable; no installer or separate .NET Desktop Runtime is required.
+- File: `C2P.LicenseRequester-v1.4.0-win-x64-OneClick.exe`
+- Size: 74,077,308 bytes
+- SHA-256: `8ED02A9D211F00CF9C7FEEBC58511C2FCEE7EBC320D69F3B3858E515D26A6503`
+- Source: `LCA-C2PDev/C2P.LicenseRequester` tag `v1.4.0`, commit `4c6e3f2`
+- Platform: Windows x64; self-contained .NET 8 WPF application
 
-## What's new
+Download the setup EXE and open it on the intended Call2Prayer PROPlus PC. It installs for the current user, includes the required `yapi.dll` for optional YOCTO relay features, creates a Start menu entry, and opens License Requester. It does not issue or activate a license.
 
-- Optional YOCTO USB relay step with relay identity capture in the machine request.
-- Editable logical name, including confirmed write and persistent save to the connected YOCTO module.
-- Supervised relay diagnostics: live output/beacon state, confirmed two-second pulse test, beacon toggle, and Force OFF.
-- Safe relay/beacon reset when leaving the relay step or closing the requester.
+## Fingerprint V2
 
-## Notes for prospects
+The requester derives a stable machine identity from MachineGuid and strong hardware anchors. Network adapter MAC addresses remain request metadata and do not affect the V2 fingerprint. The exported `C2P.MachineRequest/v2` is intended for the matching SAK Fingerprint V2 branch and PROPlus 2026.10.4.1 preview. Legacy v1 request import remains supported.
 
-Run the requester on the PC where Call2Prayer PROPlus will be used. The generated request includes machine-binding data and may include customer, site, and optional relay identity data. Review the exported JSON/TXT/ZIP request package before sharing it with approved Call2Prayer support or licensing staff.
+## Verification
 
-The YOCTO relay is optional. If used, keep external loads safe before running relay diagnostics. `yapi.dll` must remain beside `C2P.LicenseRequester.exe` after extraction.
+All 14 License Requester automated tests passed. The self-contained publish produced the application EXE and `yapi.dll`. A sandbox install placed both files with hashes matching the publish output; the sandbox uninstall completed and removed the app. The SHA-256 above identifies the release asset.
+
+Target-PC request-to-license interoperability, network adapter change behavior, and physical YOCTO relay operation remain operator preview checks. The setup EXE is unsigned, so Windows SmartScreen may ask for confirmation. Do not include customer request files or raw hardware evidence in public reports.
+
+The prior 1.3.0 portable package and [release notes](RELEASE-NOTES-v1.3.0.md) remain available.
