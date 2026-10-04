@@ -1,10 +1,10 @@
-# C2P LicenseRequester downloads
+# C2P LicenseRequester 1.4.0
 
-## Download and run
+## Download the latest release
 
-**Latest one-click preview (1.4.0):** Download [C2P.LicenseRequester-v1.4.0-win-x64-OneClick.exe](https://github.com/LCA-C2PDev/C2P.PROPlus.Release.LicenseRequester/releases/download/v1.4.0/C2P.LicenseRequester-v1.4.0-win-x64-OneClick.exe) and open it on the Windows x64 PC that will run Call2Prayer PROPlus. The per-user setup installs the self-contained requester and its required `yapi.dll`, then opens the app. No separate .NET Desktop Runtime or administrator elevation is required.
+**Current version: 1.4.0.** Download [C2P.LicenseRequester-v1.4.0-win-x64-OneClick.exe](https://github.com/LCA-C2PDev/C2P.PROPlus.Release.LicenseRequester/releases/download/v1.4.0/C2P.LicenseRequester-v1.4.0-win-x64-OneClick.exe) or open the [latest GitHub release](https://github.com/LCA-C2PDev/C2P.PROPlus.Release.LicenseRequester/releases/latest). Run the setup on the Windows x64 PC that will run Call2Prayer PROPlus. The per-user setup installs the self-contained requester and its required `yapi.dll`, then opens the app. No separate .NET Desktop Runtime or administrator elevation is required.
 
-Fingerprint V2 requests from 1.4.0 require the matching SAK Fingerprint V2 branch and PROPlus 2026.10.4.1 preview licensing workflow. This release is a preview while target-PC interoperability and physical YOCTO checks continue.
+Fingerprint V2 requests from 1.4.0 require the matching SAK Fingerprint V2 branch and PROPlus 2026.10.4.1 preview licensing workflow. Target-PC interoperability and physical C2P-ACT1 USB Actuator Module checks continue.
 
 Verify the one-click EXE before use:
 
@@ -12,7 +12,7 @@ Verify the one-click EXE before use:
 SHA-256: 8ED02A9D211F00CF9C7FEEBC58511C2FCEE7EBC320D69F3B3858E515D26A6503
 ```
 
-The [checksum file](C2P.LicenseRequester-v1.4.0-win-x64-OneClick.sha256.txt) and [release notes](RELEASE-NOTES.md) are also available here. The previous [1.3.0 portable ZIP](C2P.LicenseRequester-v1.3.0-win-x64-portable.zip) remains available for manual extraction; keep its `yapi.dll` beside its executable.
+The [checksum file](C2P.LicenseRequester-v1.4.0-win-x64-OneClick.sha256.txt) and [release notes](RELEASE-NOTES.md) are also available here.
 
 # Purpose, privacy, and consent
 
